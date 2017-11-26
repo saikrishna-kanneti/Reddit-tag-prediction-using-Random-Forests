@@ -1,4 +1,4 @@
-setwd("/home/saikiran/hackathon/data")
+
 rm(list = ls(all = T))
 library(stringi)
 library(stringr)
