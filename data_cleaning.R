@@ -37,7 +37,7 @@ xgb_cvmodel = xgb.cv(as.matrix(review_dtm), label = targets,
                      nrounds = 9999, nfold = 5, metrics = "merror", early_stopping_rounds = 150, print_every_n = 10, nthreads = 3)
 
 
-setwd("/home/saikiran/hackathon/data/test_data")
+
 test_data = read.csv("entertainment.csv")
 test_data$original_label = "entertainment"
 
